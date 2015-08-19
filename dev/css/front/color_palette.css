@@ -1,0 +1,26 @@
+.swatches {}
+
+.swatches .swatch {
+    margin-right: -2px;
+    display: inline-block;
+}
+.swatch.swatch_tiny {
+    width: 1.6rem;
+    height: 1.5rem;
+}
+.swatch.swatch_dominant {
+    width: 100%; !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 2px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.swatch.swatch_light {
+    color: #585858;
+}
+.swatch.swatch_dark {
+    color: #FFFFFF;
+}

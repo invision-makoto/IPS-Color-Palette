@@ -1,0 +1,23 @@
+<ips:template parameters="$image" />
+{{if settings.cpalette_show_dominant and $image->dominant_color}}
+	{{$domShown = true;}}
+	<h2 class="ipsType_minorHeading">{lang="dominant_color"}</h2>
+	<div class="swatches">
+		<div class="swatch swatch_tiny swatch_dominant {{if $image->dominant_color_lightness >= 85}}swatch_light{{else}}swatch_dark{{endif}}" style="background-color: {$image->dominant_color}">
+			{{if $image->dominant_color_name}}
+			{lang="cpalette_color_{$image->dominant_color_name}"}
+			{{endif}}
+		</div>
+	</div>
+{{endif}}
+{{if settings.cpalette_show_palette and $image->color_palette}}
+	<h2 class="ipsType_minorHeading"{{if $domShown}} style="margin-top:7.5px;"{{endif}}>{lang="color_palette"}</h2>
+	<div class="swatches">
+		{{foreach $image->color_palette as $color}}
+			<div class="swatch swatch_tiny" style="background-color: {$color}"></div>
+		{{endforeach}}
+	</div>
+{{endif}}
+{{if (settings.cpalette_show_dominant and $image->dominant_color) or (settings.cpalette_show_palette and $image->color_palette)}}
+	<hr class='ipsHr'>
+{{endif}}

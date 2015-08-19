@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme name="Default" author_name="Invision Power Services, Inc" author_url="http://www.invisionpower.com">
+ <template template_group="gallery" template_name="colorPalette" template_data="$image" template_location="front" template_app="colorpalette"><![CDATA[{{if settings.cpalette_show_dominant and $image->dominant_color}}
+	{{$domShown = true;}}
+	<h2 class="ipsType_minorHeading">{lang="dominant_color"}</h2>
+	<div class="swatches">
+		<div class="swatch swatch_tiny swatch_dominant {{if $image->dominant_color_lightness >= 85}}swatch_light{{else}}swatch_dark{{endif}}" style="background-color: {$image->dominant_color}">
+			{{if $image->dominant_color_name}}
+			{lang="cpalette_color_{$image->dominant_color_name}"}
+			{{endif}}
+		</div>
+	</div>
+{{endif}}
+{{if settings.cpalette_show_palette and $image->color_palette}}
+	<h2 class="ipsType_minorHeading"{{if $domShown}} style="margin-top:7.5px;"{{endif}}>{lang="color_palette"}</h2>
+	<div class="swatches">
+		{{foreach $image->color_palette as $color}}
+			<div class="swatch swatch_tiny" style="background-color: {$color}"></div>
+		{{endforeach}}
+	</div>
+{{endif}}
+{{if (settings.cpalette_show_dominant and $image->dominant_color) or (settings.cpalette_show_palette and $image->color_palette)}}
+	<hr class='ipsHr'>
+{{endif}}]]></template>
+ <css css_location="front" css_app="colorpalette" css_attributes="" css_path="." css_name="color_palette.css">.swatches {}
+
+.swatches .swatch {
+    margin-right: -2px;
+    display: inline-block;
+}
+.swatch.swatch_tiny {
+    width: 1.6rem;
+    height: 1.5rem;
+}
+.swatch.swatch_dominant {
+    width: 100%; !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 2px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.swatch.swatch_light {
+    color: #585858;
+}
+.swatch.swatch_dark {
+    color: #FFFFFF;
+}</css>
+</theme>

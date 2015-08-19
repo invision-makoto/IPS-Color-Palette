@@ -1,0 +1,18 @@
+{
+    "settings": {
+        "type": "C",
+        "class": "\\IPS\\gallery\\modules\\admin\\gallery\\settings"
+    },
+    "colorPalette": {
+        "type": "S",
+        "class": "\\IPS\\Theme\\class_gallery_front_view"
+    },
+    "view": {
+        "type": "C",
+        "class": "\\IPS\\gallery\\modules\\front\\gallery\\view"
+    },
+    "image": {
+        "type": "C",
+        "class": "\\IPS\\gallery\\Image"
+    }
+}

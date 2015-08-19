@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="colorpalette" version="10000000">
+  <word key="__app_colorpalette" js="0">Color Palette</word>
+  <word key="dominant_color" js="0">Dominant Color</word>
+  <word key="color_palette" js="0">Color Palette</word>
+  <word key="cpalette_settings_header" js="0">Color Palette</word>
+  <word key="cpalette_show_palette" js="0">Show palette</word>
+  <word key="cpalette_show_dominant" js="0">Show dominant color</word>
+  <word key="cpalette_accuracy" js="0">Palette Accuracy</word>
+  <word key="cpalette_accuracy_desc" js="0"><![CDATA[If you change this, you may want to <a data-confirm href='{internal.app=gallery&module=gallery&controller=settings&do=rebuildPalettes}'>rebuild the image palettes</a>, otherwise the change will only apply to newly uploaded images.]]></word>
+  <word key="cpalette_color_indian" js="0">Indian Red</word>
+  <word key="cpalette_color_indianred" js="0">Indian Red</word>
+  <word key="cpalette_color_crimson" js="0">Crimson</word>
+  <word key="cpalette_color_lightpink" js="0">Light Pink</word>
+  <word key="cpalette_color_pink" js="0">Pink</word>
+  <word key="cpalette_color_palevioletred" js="0">Pale Red-Violet</word>
+  <word key="cpalette_color_lavenderblush" js="0">Lavender Blush</word>
+  <word key="cpalette_color_violetred" js="0">Violet Red</word>
+  <word key="cpalette_color_hotpink" js="0">Hot Pink</word>
+  <word key="cpalette_color_raspberry" js="0">Raspberry</word>
+  <word key="cpalette_color_deeppink" js="0">Deep Pink</word>
+  <word key="cpalette_color_maroon" js="0">Maroon</word>
+  <word key="cpalette_color_mediumvioletred" js="0">Medium Red-Violet</word>
+  <word key="cpalette_color_orchid" js="0">Orchid</word>
+  <word key="cpalette_color_thistle" js="0">Thistle</word>
+  <word key="cpalette_color_plum" js="0">Plum</word>
+  <word key="cpalette_color_violet" js="0">Violet</word>
+  <word key="cpalette_color_magenta" js="0">Magenta</word>
+  <word key="cpalette_color_purple" js="0">Purple</word>
+  <word key="cpalette_color_mediumorchid" js="0">Medium Orchid</word>
+  <word key="cpalette_color_darkviolet" js="0">Dark Violet</word>
+  <word key="cpalette_color_darkorchid" js="0">Dark Orchid</word>
+  <word key="cpalette_color_indigo" js="0">Indigo</word>
+  <word key="cpalette_color_blueviolet" js="0">Blue-Violet</word>
+  <word key="cpalette_color_mediumpurple" js="0">Medium Purple</word>
+  <word key="cpalette_color_darkslateblue" js="0">Dark Slate Blue</word>
+  <word key="cpalette_color_lightslateblue" js="0">Light Slate Blue</word>
+  <word key="cpalette_color_mediumslateblue" js="0">Medium Slate Blue</word>
+  <word key="cpalette_color_slateblue" js="0">Slate Blue</word>
+  <word key="cpalette_color_ghostwhite" js="0">Ghost White</word>
+  <word key="cpalette_color_lavender" js="0">Lavender</word>
+  <word key="cpalette_color_blue" js="0">Blue</word>
+  <word key="cpalette_color_navy" js="0">Navy</word>
+  <word key="cpalette_color_midnightblue" js="0">Midnight Blue</word>
+  <word key="cpalette_color_cobalt" js="0">Cobalt</word>
+  <word key="cpalette_color_royalblue" js="0">Royal Blue</word>
+  <word key="cpalette_color_cornflowerblue" js="0">Cornflower Blue</word>
+  <word key="cpalette_color_lightsteelblue" js="0">Light Steel Blue</word>
+  <word key="cpalette_color_slategray" js="0">Slate Gray</word>
+  <word key="cpalette_color_dodgerblue" js="0">Dodger Blue</word>
+  <word key="cpalette_color_aliceblue" js="0">Alice Blue</word>
+  <word key="cpalette_color_steelblue" js="0">Steel Blue</word>
+  <word key="cpalette_color_lightskyblue" js="0">Light Sky Blue</word>
+  <word key="cpalette_color_skyblue" js="0">Sky Blue</word>
+  <word key="cpalette_color_deepskyblue" js="0">Deep Sky Blue</word>
+  <word key="cpalette_color_peacock" js="0">Peacock</word>
+  <word key="cpalette_color_lightblue" js="0">Light Blue</word>
+  <word key="cpalette_color_powderblue" js="0">Powder Blue</word>
+  <word key="cpalette_color_cadetblue" js="0">Cadet Blue</word>
+  <word key="cpalette_color_turquoise" js="0">Turquoise</word>
+  <word key="cpalette_color_darkturquoise" js="0">Dark Turquoise</word>
+  <word key="cpalette_color_azure" js="0">Azure</word>
+  <word key="cpalette_color_lightcyan" js="0">Light Cyan</word>
+  <word key="cpalette_color_paleturquoise" js="0">Pale Turquoise</word>
+  <word key="cpalette_color_darkslategray" js="0">Dark Slate Gray</word>
+  <word key="cpalette_color_cyan" js="0">Cyan</word>
+  <word key="cpalette_color_teal" js="0">Teal</word>
+  <word key="cpalette_color_mediumturquoise" js="0">Medium Turquoise</word>
+  <word key="cpalette_color_lightseagreen" js="0">Light Sea Green</word>
+  <word key="cpalette_color_manganeseblue" js="0">Manganese Blue</word>
+  <word key="cpalette_color_coldgrey" js="0">Cold Gray</word>
+  <word key="cpalette_color_turquoiseblue" js="0">Turquoise Blue</word>
+  <word key="cpalette_color_aquamarine" js="0">Aquamarine</word>
+  <word key="cpalette_color_mediumspringgreen" js="0">Medium Spring Green</word>
+  <word key="cpalette_color_mintcream" js="0">Mint Cream</word>
+  <word key="cpalette_color_springgreen" js="0">Spring Green</word>
+  <word key="cpalette_color_mediumseagreen" js="0">Medium Sea Green</word>
+  <word key="cpalette_color_seagreen" js="0">Sea Green</word>
+  <word key="cpalette_color_emeraldgreen" js="0">Emerald Green</word>
+  <word key="cpalette_color_mint" js="0">Mint</word>
+  <word key="cpalette_color_cobaltgreen" js="0">Cobalt Green</word>
+  <word key="cpalette_color_honeydew" js="0">Honeydew</word>
+  <word key="cpalette_color_darkseagreen" js="0">Dark Sea Green</word>
+  <word key="cpalette_color_palegreen" js="0">Pale Green</word>
+  <word key="cpalette_color_limegreen" js="0">Lime Green</word>
+  <word key="cpalette_color_forestgreen" js="0">Forest Green</word>
+  <word key="cpalette_color_green" js="0">Green</word>
+  <word key="cpalette_color_darkgreen" js="0">Dark Green</word>
+  <word key="cpalette_color_sapgreen" js="0">Sap Green</word>
+  <word key="cpalette_color_lawngreen" js="0">Lawn Green</word>
+  <word key="cpalette_color_chartreuse" js="0">Chartreuse</word>
+  <word key="cpalette_color_greenyellow" js="0">Green Yellow</word>
+  <word key="cpalette_color_darkolivegreen" js="0">Dark Olive Green</word>
+  <word key="cpalette_color_olivedrab" js="0">Olive Drab</word>
+  <word key="cpalette_color_ivory" js="0">Ivory</word>
+  <word key="cpalette_color_beige" js="0">Beige</word>
+  <word key="cpalette_color_lightyellow" js="0">Light Yellow</word>
+  <word key="cpalette_color_lightgoldenrodyellow" js="0">Light Goldenrod Yellow</word>
+  <word key="cpalette_color_yellow" js="0">Yellow</word>
+  <word key="cpalette_color_warmgrey" js="0">Warm Grey</word>
+  <word key="cpalette_color_olive" js="0">Olive</word>
+  <word key="cpalette_color_darkkhaki" js="0">Dark Khaki</word>
+  <word key="cpalette_color_khaki" js="0">Khaki</word>
+  <word key="cpalette_color_palegoldenrod" js="0">Pale Golden Rod</word>
+  <word key="cpalette_color_lemonchiffon" js="0">Lemon Chiffon</word>
+  <word key="cpalette_color_banana" js="0">Banana</word>
+  <word key="cpalette_color_gold" js="0">Gold</word>
+  <word key="cpalette_color_cornsilk" js="0">Corn Silk</word>
+  <word key="cpalette_color_goldenrod" js="0">Golden Rod</word>
+  <word key="cpalette_color_darkgoldenrod" js="0">Dark Golden Rod</word>
+  <word key="cpalette_color_orange" js="0">Orange</word>
+  <word key="cpalette_color_floralwhite" js="0">Floral White</word>
+  <word key="cpalette_color_oldlace" js="0">Old Lace</word>
+  <word key="cpalette_color_wheat" js="0">Wheat</word>
+  <word key="cpalette_color_moccasin" js="0">Moccasin</word>
+  <word key="cpalette_color_papayawhip" js="0">Papaya Whip</word>
+  <word key="cpalette_color_blanchedalmond" js="0">Blanched Almond</word>
+  <word key="cpalette_color_navajowhite" js="0">Navajo White</word>
+  <word key="cpalette_color_eggshell" js="0">Eggshell</word>
+  <word key="cpalette_color_tan" js="0">Tan</word>
+  <word key="cpalette_color_brick" js="0">Brick</word>
+  <word key="cpalette_color_cadmiumyellow" js="0">Cadmium Yellow</word>
+  <word key="cpalette_color_antiquewhite" js="0">Antique White</word>
+  <word key="cpalette_color_burlywood" js="0">Burly Wood</word>
+  <word key="cpalette_color_bisque" js="0">Bisque</word>
+  <word key="cpalette_color_melon" js="0">Melon</word>
+  <word key="cpalette_color_carrot" js="0">Carrot</word>
+  <word key="cpalette_color_darkorange" js="0">Dark Orange</word>
+  <word key="cpalette_color_linen" js="0">Linen</word>
+  <word key="cpalette_color_peachpuff" js="0">Peach Puff</word>
+  <word key="cpalette_color_seashell" js="0">Seashell</word>
+  <word key="cpalette_color_sandybrown" js="0">Sandy Brown</word>
+  <word key="cpalette_color_rawsienna" js="0">Raw Sienna</word>
+  <word key="cpalette_color_chocolate" js="0">Chocolate</word>
+  <word key="cpalette_color_ivoryblack" js="0">Ivory Black</word>
+  <word key="cpalette_color_flesh" js="0">Flesh</word>
+  <word key="cpalette_color_cadmiumorange" js="0">Cadmium Orange</word>
+  <word key="cpalette_color_burntsienna" js="0">Burnt Sienna</word>
+  <word key="cpalette_color_sienna" js="0">Sienna</word>
+  <word key="cpalette_color_lightsalmon" js="0">Light Salmon</word>
+  <word key="cpalette_color_coral" js="0">Coral</word>
+  <word key="cpalette_color_orangered" js="0">Orange Red</word>
+  <word key="cpalette_color_sepia" js="0">Sepia</word>
+  <word key="cpalette_color_darksalmon" js="0">Dark Salmon</word>
+  <word key="cpalette_color_salmon" js="0">Salmon</word>
+  <word key="cpalette_color_burntumber" js="0">Burnt Umber</word>
+  <word key="cpalette_color_tomato" js="0">Tomato</word>
+  <word key="cpalette_color_mistyrose" js="0">Misty Rose</word>
+  <word key="cpalette_color_snow" js="0">Snow</word>
+  <word key="cpalette_color_rosybrown" js="0">Rosy Brown</word>
+  <word key="cpalette_color_lightcoral" js="0">Light Coral</word>
+  <word key="cpalette_color_brown" js="0">Brown</word>
+  <word key="cpalette_color_firebrick" js="0">Fire Brick</word>
+  <word key="cpalette_color_red" js="0">Red</word>
+  <word key="cpalette_color_beet" js="0">Beet</word>
+  <word key="cpalette_color_brightgray" js="0">Bright Gray</word>
+  <word key="cpalette_color_darkgray" js="0">Dark Gray</word>
+  <word key="cpalette_color_gray" js="0">Gray</word>
+  <word key="cpalette_color_white" js="0">White</word>
+  <word key="cpalette_color_whitesmoke" js="0">White Smoke</word>
+  <word key="cpalette_color_gainsboro" js="0">Gainsboro</word>
+  <word key="cpalette_color_lightgrey" js="0">Light Grey</word>
+  <word key="cpalette_color_silver" js="0">Silver</word>
+  <word key="cpalette_color_dimgray" js="0">Dim Gray</word>
+  <word key="cpalette_color_black" js="0">Black</word>
+ </app>
+</language>

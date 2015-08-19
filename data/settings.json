@@ -1,0 +1,14 @@
+[
+    {
+        "key": "cpalette_accuracy",
+        "default": "18"
+    },
+    {
+        "key": "cpalette_show_dominant",
+        "default": "1"
+    },
+    {
+        "key": "cpalette_show_palette",
+        "default": "1"
+    }
+]
