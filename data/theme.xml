@@ -18,9 +18,6 @@
 			<div class="swatch swatch_tiny" style="background-color: {$color}"></div>
 		{{endforeach}}
 	</div>
-{{endif}}
-{{if (settings.cpalette_show_dominant and $image->dominant_color) or (settings.cpalette_show_palette and $image->color_palette)}}
-	<hr class='ipsHr'>
 {{endif}}]]></template>
  <css css_location="front" css_app="colorpalette" css_attributes="" css_path="." css_name="color_palette.css">.swatches {}
 

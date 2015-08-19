@@ -1,0 +1,59 @@
+{
+    "1": {
+        "method": "addColumn",
+        "params": [
+            "gallery_images",
+            {
+                "name": "image_color_palette",
+                "type": "VARCHAR",
+                "length": 255,
+                "null": true,
+                "default": null,
+                "comment": "The images color palette in CSV format"
+            }
+        ]
+    },
+    "2": {
+        "method": "addColumn",
+        "params": [
+            "gallery_images",
+            {
+                "name": "image_dominant_color_lightness",
+                "type": "TINYINT",
+                "unsigned": true,
+                "length": 3,
+                "null": true,
+                "default": 0,
+                "comment": "The lightness value of the dominant color"
+            }
+        ]
+    },
+    "3": {
+        "method": "addColumn",
+        "params": [
+            "gallery_images",
+            {
+                "name": "image_dominant_color_name",
+                "type": "VARCHAR",
+                "length": 255,
+                "null": true,
+                "default": null,
+                "comment": "The name of the closest matching dominant color"
+            }
+        ]
+    },
+    "4": {
+        "method": "addColumn",
+        "params": [
+            "gallery_images",
+            {
+                "name": "image_dominant_color",
+                "type": "CHAR",
+                "length": 7,
+                "null": true,
+                "default": null,
+                "comment": "The images dominant color in hex format"
+            }
+        ]
+    }
+}
